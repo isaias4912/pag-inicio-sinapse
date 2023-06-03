@@ -1,0 +1,23 @@
+.form__principal{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 100px;
+}
+.button{
+    color: black;
+    background:rgb(223, 226, 9); 
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200PX;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.input__space{
+    padding: 20px;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}

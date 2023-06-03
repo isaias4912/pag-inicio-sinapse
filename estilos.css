@@ -1,0 +1,207 @@
+body{
+    background: black;
+}
+.cabezera{
+    align-items: center;
+    background: black;
+    display: flex;
+    border-bottom: 2px solid rgb(223, 226, 9);
+}
+/* menu link estilos */
+.menu__link{
+    color: rgb(245, 245, 234);
+    padding: 10px;
+}
+.menu__link:hover{
+    text-decoration: underline;
+    color: rgb(238, 241, 10);
+
+}
+/* estilo de menu lista */
+
+.menu_lista{
+    display: flex;
+    margin-left: 300px;
+    cursor: pointer;
+}
+/* estilo logo  */
+.logo{
+    width: 10%;
+    margin: 40px;
+}
+/* estilo section principal  */
+.section__principal{
+    display: flex;
+    justify-content:space-evenly;
+    background: black;
+    
+}
+.section__principal h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+.section__principal h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    margin-top: -40px;
+}
+.section__descripcion{
+    display: inline-block;
+    padding-top: 180px;
+    color: white;
+    margin: 40px;
+    
+}
+/* estilo logo section   */
+.logo__section{
+    width: 50%;
+}
+/* estilos footer   */
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+}
+ /* estilo__boton descubrelo */
+
+.boton__descubrelo{
+    color: black;
+    background:rgb(223, 226, 9); 
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200PX;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.boton__descubrelo:hover{
+    cursor: pointer;
+    
+}
+/* footer  */
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+  }
+  
+  .container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .container-body{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .colum1{
+    max-width: 400px;
+  }
+  
+  .colum1 h1{
+    font-size: 22px;
+  }
+  
+  .colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+  }
+  
+  .colum2{
+    max-width: 400px;
+    
+  }
+  
+  .colum2 h1{
+    font-size: 22px;
+  }
+  
+  .row {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+  
+  .row img{
+    width: 50px;
+    height: auto;
+  }
+  
+  .row label{
+    
+    margin-top: 10px;
+    margin-left: 46px;
+    color: #C7C7C7;
+  }
+  
+  
+  .colum3{
+    max-width: 400px;
+  }
+  
+  .colum3 h1{
+    font-size: 22px;
+  }
+  
+  .row2{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .row2 img{
+    width: 50px;
+    height: auto;
+  }
+  
+  .row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+  }
+  
+  .container-footer{
+    width: 100%;  
+    background: #101010;
+  }
+  
+  .footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+  }
+  
+  .copyright{
+    color: #C7C7C7;
+  }
+  
+  .copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .information a{
+    text-decoration: none;
+    color: #C7C7C7;
+  }
+  
+  @media screen and (max-width: 1100px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .colum1{
+        max-width: 100%;
+    }
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    } 
+  }
